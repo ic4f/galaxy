@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         python-version: [3.7]
-        subset: ['foo']
+        subset: ['foo', 'config_defaults']
     services:
       postgres:
         image: postgres:11
