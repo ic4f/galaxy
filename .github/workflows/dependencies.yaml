@@ -22,7 +22,7 @@ jobs:
       - name: Update dependencies
         run: | 
           python -m venv .venv
-	        make update-dependencies
+          make update-dependencies
           #python -m pip install --upgrade pip setuptools poetry
           #python -m pip install -r lib/galaxy/dependencies/lint-requirements.txt
           #python -m pip freeze -l > lib/galaxy/dependencies/pinned-lint-requirements.txt
